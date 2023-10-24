@@ -83,5 +83,10 @@
 
 # turtle.done() 
 
-print((4.5 + -5.5) + (6.6 + -6.5))
+# print((4.5 + -5.5) + (6.6 + -6.5))
 
+if radius < 0: 
+  print("Incorrect input")
+else: 
+  area = radius * radius * 3.14159
+  print("Area is", area)
