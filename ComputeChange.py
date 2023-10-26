@@ -1,3 +1,4 @@
+import random
 # import time
 # import turtle as turtle
 # turtle.title("1st turtle")
@@ -85,8 +86,54 @@
 
 # print((4.5 + -5.5) + (6.6 + -6.5))
 
-if radius < 0: 
-  print("Incorrect input")
-else: 
-  area = radius * radius * 3.14159
-  print("Area is", area)
+# if radius < 0: 
+#   print("Incorrect input")
+# else: 
+#   area = radius * radius * 3.14159
+#   print("Area is", area)
+
+# mySecretNumber = 17; 
+# userGuess = int(input("Guess my  number"))
+# print(int(True))
+# print(int("2"))
+# print(bool(0))
+# if:
+# print(userGuess == mySecretNumber)
+# else: 
+# print("Sorry..better luck next time ")
+
+number1 = random.randint(0,9)
+number2 = random.randint(0,9)
+
+answer =eval(input("what is " + str(number1) + " + " + str(number2) + "? "))
+
+print(number1, "+", number2, "=", answer, "is", number1 + number2 == answer)
+
+random.random()
+random.randint(0,2)
+random.randrange(0,20)
+random.randrange(10, 50 + 1)
+random.randint(0,1)
+radius = 8
+if radius >= 5:
+  area = radius * radius * 3.1459
+  print("The area for the circle of ", "radius", radius, "is", area)
+
+number3 = int (input("Enter an integer: "))
+
+if number3 % 5 == 0: 
+  print("HiFive")
+else :
+  print("low five")
+y = 9
+if(y > 0):
+  x = 1 
+
+if score > 90:
+  pay *= 1.03
+
+
+if number1 % 2 == 0: 
+  print(number1, "is odd")
+
+  
