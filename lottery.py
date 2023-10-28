@@ -1,5 +1,5 @@
 import random
-
+import turtle
 lottery = random.randint(0, 99)
 
 # guess = int(input("Enter your lottery pick (two digits): "))
@@ -36,65 +36,97 @@ lottery = random.randint(0, 99)
 
 # print(ch >= 'A' or ch <= 'Z')
 
-# x = 14
-# y = 15
+# # x = 14
+# # y = 15
 
-# print(x % 2 == 0 and y % 2 == 0)
-# print(x % 2 != 0 and y % 2 != 0)
-# print(x % 2 == 0 or y % 2 == 0)
-# print(x % 2 == 0 and y % 2 == 1)
+# # print(x % 2 == 0 and y % 2 == 0)
+# # print(x % 2 != 0 and y % 2 != 0)
+# # print(x % 2 == 0 or y % 2 == 0)
+# # print(x % 2 == 0 and y % 2 == 1)
 
 
-# x > y or x < y
-# x >= y or x <= y
-# not (x == y)
-# x > y and x < y
+# # x > y or x < y
+# # x >= y or x <= y
+# # not (x == y)
+# # x > y and x < y
 
-# if x > 0: 
-#   y = 1
+# # if x > 0: 
+# #   y = 1
+# # else:
+# #   y = -1
+
+# # number1 = 4
+# # number2 = 8
+# # max = number1 if number1 > number2 else number2
+
+# # print("number is even" if number2  % 2 == 0 else "number is odd")
+# # n1 = 5
+# # n2 = 3
+# # status = 1 if n1 > n2 else (0 if n1 == n2 else -1)
+
+# # x = float(input("Enter a number: "))
+# # y = float(input("Enter a number: "))  
+# # z = float(input("Enter a number: "))
+# # print("sorted" if x < y and y < z else "not sorted")
+
+# ages = 5
+# ticketPrice = 20 if (ages >= 16) else 10
+# print(ticketPrice)
+
+# age = 9
+# ticketPrices = 40 if age >= 7 else 87
+
+# count = 9
+# print(count, end = "*" if count % 10 == 0 else "#")  
+
+# scale = 8
+# x = 6
+# score = 3 * scale if x > 10 else 4 * scale
+
+# if x > 10:
+#   score = 3 * scale 
 # else:
-#   y = -1
+#   score= 4 * scale
 
-# number1 = 4
-# number2 = 8
-# max = number1 if number1 > number2 else number2
+# income = 100
+# tax = income * 2.0 if income > 100000 else income * 4.0 + 1000
 
-# print("number is even" if number2  % 2 == 0 else "number is odd")
-# n1 = 5
-# n2 = 3
-# status = 1 if n1 > n2 else (0 if n1 == n2 else -1)
+# income * 0.2 if income > 198837 else 0.1
 
-# x = float(input("Enter a number: "))
-# y = float(input("Enter a number: "))  
-# z = float(input("Enter a number: "))
-# print("sorted" if x < y and y < z else "not sorted")
+# number = 2
 
-ages = 5
-ticketPrice = 20 if (ages >= 16) else 10
-print(ticketPrice)
+# even = True if number % 2 == 0 else False
+# print(even)
 
-age = 9
-ticketPrices = 40 if age >= 7 else 87
+# year = int (input("Enter a year: "))
+# match year % 12:
+#   case 0: print("monkey")
+#   case 1: print("rooster")
 
-count = 9
-print(count, end = "*" if count % 10 == 0 else "#")  
+# x = 1
+# a = 3
 
-scale = 8
-x = 6
-score = 3 * scale if x > 10 else 4 * scale
+# if a == 1:
+#   x += 5
+# elif a == 2:
+#   x += 10
+# elif a == 3:
+#   x += 16 
 
-if x > 10:
-  score = 3 * scale 
-else:
-  score= 4 * scale
+# match a:
+#   case 1: x += 5
+#   case 2: x += 10
+#   case 3: x += 8
 
-income = 100
-tax = income * 2.0 if income > 100000 else income * 4.0 + 1000
+# day = 9
+# match day:
+#   case 0: print("Sunday")
 
-income * 0.2 if income > 198837 else 0.1
+# month = "Dec"
 
-number = 2
+# match month:
+#   case "jan": print("january")
+#   case "Dec": print("dec 22")
+#   case "march": print("someone else")
 
-even = True if number % 2 == 0 else False
-print(even)
-
+turtle.pendown() # Pull the pen up
