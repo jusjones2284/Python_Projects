@@ -1,6 +1,7 @@
 import random
 import turtle
 lottery = random.randint(0, 99)
+import math
 
 # guess = int(input("Enter your lottery pick (two digits): "))
 
@@ -129,4 +130,139 @@ lottery = random.randint(0, 99)
 #   case "Dec": print("dec 22")
 #   case "march": print("someone else")
 
-turtle.pendown() # Pull the pen up
+# turtle.pendown() # Pull the pen up
+
+# minutes = int(input("Enter the number of minutes: "))
+# totalNumberOfDays = minutes // (24 * 60)
+# numberOfYears = totalNumberOfDays // 365
+# remainingNumberOfDays = totalNumberOfDays % 365
+# print(minutes, "minutes is approximately", numberOfYears, "years and", remainingNumberOfDays, "days")
+
+# print('Find roots of the quadratic equation: ax^2 + bx + c = 0')
+
+# a = float(input('Enter a value of a: '))
+# b = float(input('Enter a value of b: '))
+# c = float(input('Enter a value of c: '))
+
+# discriminant = b ** 2 - 4 * a * c
+
+# if discriminant > 0:
+#   r1 = (-b + discriminant ** 0.5)/(2 * a)
+#   r2 = (-b - discriminant ** 0.5)/(2 * a)
+#   print('Roots are', r1, 'and', r2)
+
+# elif discriminant == 0:
+#   r = -b/(2*a)
+#   print('Root is', r)
+
+# else:
+#     print('The equation has no real roots.')
+
+  
+ 
+# a = float(input("Enter the value of a: "))
+# b = float(input("Enter the value of b: "))
+# c = float(input("Enter the value of c: "))
+# d = float(input("Enter the value of d: "))
+# e = float(input("Enter the value of e: "))
+# f = float(input("Enter the value of f: "))
+
+# determinant = a * d - b * c
+
+# if determinant == 0:
+#     print("The equation has no solution.")
+# else:
+#     x = (e * d - b * f) / determinant
+#     y = (a * f - e * c) / determinant
+
+#     print("Solution:")
+#     print("x =", x)
+#     print("y =", y)
+
+#     def calculate_day_of_week(year, month, day):
+#     if month == 1 or month == 2:
+#         month += 12
+#         year -= 1
+    
+#     q = day
+#     m = month
+#     j = year // 100
+#     k = year % 100
+#     # Apply Zeller's congruence formula
+#     h = (q + ((26 * (m + 1)) // 10) + k + (k // 4) + (j // 4) + (5 * j)) % 7
+#     # Map the result to the corresponding day of the week
+#     days_of_week = ["Saturday", "Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday"]
+#     day_of_week = days_of_week[h]
+    
+#     return day_of_week
+# # Get input from the user
+# year = int(input("Enter year: (e.g., 2012): "))
+# month = int(input("Enter month: 1-12: "))
+# day = int(input("Enter the day of the month: 1-31: "))
+# # Calculate and print the day of the week
+# day_of_week = calculate_day_of_week(year, month, day)
+# print("Day of the week is", day_of_week)
+
+# month = int(input("Enter a month in the year (e.g., 1 for Jan): "))
+# year = int(input("Enter a year: " ))
+
+# isLeapYear = (year % 4 == 0 and year % 100 != 0) or (year % 400 == 0)
+
+# if isLeapYear == False:
+#         days = 28
+# else:
+#         days = 30
+
+# # match month:
+# #    case 1: month = "Jan"  print(month, year, "has", days)
+# #    case 2: month = "feb"
+      
+# match month:
+#         case 1: "January" , year , "has 31 days"
+#         case 2: "February", year , "has", 
+# x = 2
+x = -2.5
+print(abs(x))
+x1, x2 = 4, 5
+print(max(x1, x2))
+print(min(x1, x, x2))
+pow(2, 4)
+round(x)
+round(x, x1)
+
+print(math.degrees(math.pi/2))
+
+letter = 'A'
+numChar = '4'
+message = "Good morning"
+x =''
+
+print('''There are three ways to represent strings: 
+      1. Single-quotes
+      2. Double-quotes, and
+      3. Tripple-quotes.
+''')
+
+s1 = "Welcome"
+print("come" in s1)
+
+"come" not in s1
+
+"Welco" in s1
+"Welco" not in s1 is False
+
+"green" == "glow"
+"green" != "glow"
+
+""
+s1 = input("Enter the first string: ")
+s2 = input("Enter the second string: ")
+if (s1 > s2):
+  s1, s2 = s2, s1
+
+print("The two strings are in this order: ", s1, s2)
+
+s = "Welcome"
+len(s)
+
+
