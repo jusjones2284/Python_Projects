@@ -38,3 +38,25 @@
 # else:
 #     print("isnt a numberic string")
 
+s = "welcome to python"
+print(s.endswith("thon"))
+s.startswith("djka")
+s.find("come")
+s.rfind("become")
+s.count("o")
+
+n = input("Enter a string: ")
+if n.startswith("comp"):
+  print(n, "begins with")
+if n.endswith("er"):
+  print(n, "ends with er")
+
+count = n.count('e')
+print('e', "appears", count, "times" if count > 8 else "time", "in", n)
+
+s = input("Enter a string with length > 1")
+lastCh = s[-1]
+if s[:-1].find(lastCh):
+  print(lastCh, "appears more than once in", s)
+else:
+  print(lastCh, "appears only once in", s)
