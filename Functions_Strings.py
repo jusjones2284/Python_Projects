@@ -60,3 +60,12 @@ if s[:-1].find(lastCh):
   print(lastCh, "appears more than once in", s)
 else:
   print(lastCh, "appears only once in", s)
+
+"Good".replace("o", "9")
+
+n = "   Welcome to Python\t"
+n1 = n.lstrip() ##left strip
+n2 = n.rstrip() ##right strip
+n4 = n.strip()  ##complete strip
+
+
