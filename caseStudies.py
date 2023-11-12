@@ -36,3 +36,33 @@ while num <= n:
     num = num + d
 print("The sum of elements of arithmetic progression:", sum)
 
+
+while num < 20:
+  num += 1
+  sum += num
+  if sum >= 100: 
+    break
+print("The number is", num)
+print("The sum is")
+
+while num < 20:
+  num += 1
+  if num == 10 or num == 11:
+    continue
+  sum += num
+print("The sum is", sum)
+
+n = int(input("Enter an integer >= 2: "))
+factor = 2
+
+while factor <= n:
+  if n % factor == 0:
+    break
+  factor += 1
+print("The smallest factor other than 1 for", n, "is", factor)
+
+factor =2
+while factor <= n and n % factor != 0:
+  factor += 1
+
+
