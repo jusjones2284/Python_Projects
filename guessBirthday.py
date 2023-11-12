@@ -86,4 +86,77 @@ import math
 
 # if grade.upper == 'A':
 #     print('The numberic value for grade', grade, 'is', 4)
-    
+
+# value = 0
+# for i in range(10):
+#   value += 5
+#   print(value , ", ", i)
+
+
+# ##firs number is the start value. second number is the the end and the last is the iteration by.
+# for i in range(5, 55, 5):
+#   print(i)
+
+# for i in range(5, 100, 5):
+#   print(i)
+
+# for v in range(4, 8):
+#   print(v)
+
+# number = 0
+# sum = 0
+
+# for count in range(5):
+#   number = int(input("Enter an integer: "))
+#   sum += number
+
+# print("sum is", sum)
+# print("count is", count)
+
+# count = 0
+# sum = 0
+
+# for count in range(5, 10):
+#   number = int(input("Enter an integer: "))
+#   sum = sum + number
+
+# print("sum is", sum)
+# print("count is", count)
+
+# sum = 0
+# i = 0
+# while i <= 1001: 
+#   sum += i
+#   i += 1
+
+# for i in range(0, 1001):
+#   sum += i 
+
+for i in range(1,5):
+  j = 0
+  while j < i :
+    print(j, end= " ")
+    j += 1
+
+sum = 0
+
+i = 0.01
+while i <= 1.0:
+  sum += i 
+  i = i + 0.01
+print("the sum is", sum)
+
+
+count = 0 
+i = 0.01
+while count < 100:
+  sum += i 
+  i = i + 0.01
+  count += 1
+print("The sum is", sum)
+
+for count in range(100):
+  sum += i 
+  i = i + 0.01
+
+print("The sum is", sum)
