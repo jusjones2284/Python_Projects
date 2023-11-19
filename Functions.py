@@ -84,19 +84,71 @@
 #             return False
     
 #     return True
+# def main():
+#     i = 5
+#     j = 2
+#     k = max(i, j)
+#     print("The maxium between", i, "and", j, "is", k)
 
-def max(num1, num2):
-    if(num1 > num2):
-        result = num1
-    else:
-        result = num2
+# def max(num1, num2):
+#     if(num1 > num2):
+#         result = num1
+#     else:
+#         result = num2
 
-    return result
+#     return result
+
+# main()
+
+
+# def max(x, y):
+#     result = x if x > y else y
+#     return result
+
+
+import math
+def main():
+    return math.sin(math.pi)
+
+print(main())
+
+math.pow()
+
+def printGrade(score): 
+    if score >= 90.0:
+        print('A')
+    elif score >= 80.0:
+        print('B')
+    elif score >= 70.0:
+        print('C')
+    elif score >= 60.0:
+        print('F')
+
 
 def main():
-    i = 5
-    j = 2
-    k = max(i, j)
-    print("The maxium between", i, "and", j, "is", k)
+    score = float(input("Enter a score: ")) 
+    print("The grade is ", end= "")
+    printGrade(score)
 
 main()
+
+def printGrade(score):
+    if score < 0 or score > 100:
+        print("Invaild score")
+        return 
+    if score >= 90.0: 
+        print('A')
+    elif score >= 80.0:
+        print('B')
+    elif score >= 70.0:
+        print('C')
+    elif score >= 60.0:
+        print('D')
+    else:
+        print('F')
+
+def nPrintln(message, n):
+    for i in range(n):
+        print(message)
+
+nPrintln(n= 8, message= "Justin you will be a software engineer/cyber ")
