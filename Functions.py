@@ -106,49 +106,68 @@
 #     return result
 
 
-import math
-def main():
-    return math.sin(math.pi)
+# import math
+# def main():
+#     return math.sin(math.pi)
 
-print(main())
+# print(main())
 
-math.pow()
+# math.pow()
 
-def printGrade(score): 
-    if score >= 90.0:
-        print('A')
-    elif score >= 80.0:
-        print('B')
-    elif score >= 70.0:
-        print('C')
-    elif score >= 60.0:
-        print('F')
+# def printGrade(score): 
+#     if score >= 90.0:
+#         print('A')
+#     elif score >= 80.0:
+#         print('B')
+#     elif score >= 70.0:
+#         print('C')
+#     elif score >= 60.0:
+#         print('F')
 
 
-def main():
-    score = float(input("Enter a score: ")) 
-    print("The grade is ", end= "")
-    printGrade(score)
+# def main():
+#     score = float(input("Enter a score: ")) 
+#     print("The grade is ", end= "")
+#     printGrade(score)
 
-main()
+# main()
 
-def printGrade(score):
-    if score < 0 or score > 100:
-        print("Invaild score")
-        return 
-    if score >= 90.0: 
-        print('A')
-    elif score >= 80.0:
-        print('B')
-    elif score >= 70.0:
-        print('C')
-    elif score >= 60.0:
-        print('D')
-    else:
-        print('F')
+# def printGrade(score):
+#     if score < 0 or score > 100:
+#         print("Invaild score")
+#         return 
+#     if score >= 90.0: 
+#         print('A')
+#     elif score >= 80.0:
+#         print('B')
+#     elif score >= 70.0:
+#         print('C')
+#     elif score >= 60.0:
+#         print('D')
+#     else:
+#         print('F')
 
-def nPrintln(message, n):
-    for i in range(n):
-        print(message)
+# def nPrintln(message, n):
+#     for i in range(n):
+#         print(message)
 
-nPrintln(n= 8, message= "Justin you will be a software engineer/cyber ")
+# nPrintln(n= 8, message= "Justin you will be a software engineer/cyber ")
+
+list24 = [2,3,5,7,9,1]
+
+newList = list24[2:4]
+print(newList)
+list24[0]
+
+list1 = [2,3,5,2,33,21,48,10,15,37,90,63]
+newList1 = list1[:3]
+newList2 = list1[2:]
+
+list1[:3] = [95, 85, 75]
+print(list1)
+newList6 = list1[9:5]
+print(newList1)
+newList1 = list1[5:9]
+print(newList1)
+
+
