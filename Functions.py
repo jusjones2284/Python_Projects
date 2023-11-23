@@ -153,21 +153,42 @@
 
 # nPrintln(n= 8, message= "Justin you will be a software engineer/cyber ")
 
-list24 = [2,3,5,7,9,1]
+# list24 = [2,3,5,7,9,1]
 
-newList = list24[2:4]
-print(newList)
-list24[0]
+# newList = list24[2:4]
+# # print(newList)
+# list24[0]
 
-list1 = [2,3,5,2,33,21,48,10,15,37,90,63]
-newList1 = list1[:3]
-newList2 = list1[2:]
+# list1 = [2,3,5,2,33,21,48,10,15,37,90,63]
+# newList1 = list1[:3]
+# newList2 = list1[2:]
 
-list1[:3] = [95, 85, 75]
-print(list1)
-newList6 = list1[9:5]
-print(newList1)
-newList1 = list1[5:9]
-print(newList1)
+# list1[:3] = [95, 85, 75]
+# # print(list1)
+# newList6 = list1[9:5]
+# # print(newList1)
+# newList1 = list1[5:9]
+# print(newList1)
 
+# list98 = list24 + list1
+# # print(list98)
+# list100 = list1 * 30
+# 2 in list1
+
+# # for u in list98:
+# #   print(u)
+
+# for i in range(0, len(list98), 2):
+#     print(list98[i])
+
+list45 = [4, 4]
+print(sum(list45))
+
+list1 = ["green", "red", "blue"]
+list2 = ["red", "blue", "green"]
+
+list2 == list1 
+list2 != list1
+list2 >= list1
+list2 > list1
 
