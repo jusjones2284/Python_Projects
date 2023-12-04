@@ -92,3 +92,10 @@ set3 = set1 ^ {"green", "yellow"}
 print(" ^ ", set3)
 
 set1 == {"green", "red", "blue"}
+
+
+actual_weight = None
+for e in weights :
+  if actual_weight == None or (abs(e - desired_weight) < abs(actual_weight - desired_weight)) or (abs(e - desired_weight) == abs(actual_weight - desired_weight) and e < desired_weight) :
+    actual_weight = e
+weights.remove(actual_weight)
