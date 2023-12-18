@@ -105,7 +105,6 @@
 #     result = x if x > y else y
 #     return result
 
-fda
 # import math
 # def main():
 #     return math.sin(math.pi)
